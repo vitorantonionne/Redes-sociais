@@ -8,4 +8,42 @@
 :root {
     --fontpadrao: Arial, Helvetica, sans-serif;
    
+}
 
+html , body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: var(--fontpadrao);
+    background: url('../imagens/fundo-madeira.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#celular {
+    position: absolute;
+    width: 310px;
+    height: 630px;
+    background-color: blue;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    background:  url('../imagens/frame-iphone.png') no-repeat center center fixed;
+}
+
+iframe#tela {
+    position: relative;
+    top: 82px;
+    left: 23px;
+
+    height: 470px;
+    width: 265px;
+}
