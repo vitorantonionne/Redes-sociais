@@ -47,3 +47,23 @@ iframe#tela {
     height: 470px;
     width: 265px;
 }
+
+section#lateral {
+    text-align: right;
+}
+
+section#lateral > a > img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, 0.295);
+    box-sizing: border-box;
+    border: 1px solid rgba(128, 128, 128, 0.322);
+}
+
+section#lateral >a >img:hover {
+    border: 1px solid white;
+    transform: translate(-2px,-2px);
+    transition: 0.3s;
+    box-shadow: 2px 8px 6px 2px rgba(0, 0, 0, 0.493);
+}
